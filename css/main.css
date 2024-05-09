@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'Gaegu';
+    src: url('../Font/Gaegu-Regular.ttf') format('truetype');
+  }
+
+
+
+  @font-face {
+    font-family: 'Harmattan';
+    src: url('../Font/Harmattan-Regular.ttf') format('truetype')
+  }
+
+  @font-face {
+    font-family: 'Lexend';
+    src: url('../Font/Lexend-VariableFont_wght.ttf') format('truetype')
+  }
+  
+
+
+
+/* box-sizing : (initialisation)  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+
+}
+
+/* navigation links */
+header{
+    width: 100%;
+    height: 90px;
+    background: whitesmoke;
+    border-bottom: 1px solid #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between; 
+}
+
+#img_cs{
+    padding-left: 2rem;
+}
+
+#img_ieee{
+    padding-right: 2rem;
+}
+
+
+nav ul {
+    list-style-type:none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ nav a {
+    color:rgb(8, 77, 166);
+    font-family: "Harmattan";
+    font-size: 1.6rem;
+    box-shadow: inset 0 0 0 0 rgb(8, 77, 166);
+    color: rgb(8, 77, 166);
+    margin: 1.5rem;
+    padding: 0 0.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  nav  a:hover {
+    box-shadow: inset 130px 0 0 0 rgb(8, 77, 166);
+    color: white;
+  }
+
+/*main css*/
+
+.info{
+    margin : 1.5rem;
+    padding: 1rem;
+    border: 2px solid #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+
+}
+
+.symbol{
+    margin-top : 3rem;
+    margin-right: 2.rem;
+}
+
+.symbol img {
+    width: 17rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+/* chnow zedt */
+.def h3 {
+    font-family: "Harmattan";
+    font-size: 2rem;
+    color : #17BFAE;
+    padding-bottom: 0.8rem;
+}
+
+.def p {
+    font-family: "Harmattan";
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+
+.def  {
+    max-width:55rem;
+    padding : 0.8rem;
+}
+
+
+
+/* table */
+tr th {
+    background-color: #17BFAE;
+    border: 1px solid #000000;
+}
+
+table th, table td {
+    padding : 0.5rem;
+}
+
+tr {
+    border: 1px solid #000000;
+
+}
+
+td {
+    border: 0.5px solid #000000;
+        border-top: 3px solid #000000;
+}
+
+.switch img {
+    width:65px;
+    padding-right: 0.3rem;
+}
+
+.lamp img {
+    height:60px;
+}
+
+.switch_small img {
+    width:85px;
+    padding-right: 0.3rem;
+}
+
+.lamp_small img {
+    height:85px;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.3rem;
+    font-family: "Harmattan";
+    width: 17rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* partie loota */
+.play{
+    margin:3rem 1.5rem ;
+    padding: 1rem;
+    border: 2px solid #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    background-color: #F1F1F1;
+}
+
+.play h2 {
+    font-size: 2rem;
+    font-family: "Harmattan";
+    color : #17BFAE;
+    margin-right :1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    position: absolute;
+}
+
+.photo img{
+    height: 400px;
+    width: 850px;    
+}
+
+.box{
+    height:400px;
+    width: 80px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 45rem;
+}
+
+.item1 {
+    height: 130px;
+    width: 85px;
+}
+
+.item2{
+    height: 60px;
+    width: 85px;
+}
+
+.item3 {
+    height: 140px;
+    width: 85px;
+}
+
+
+/* button */
+.button {
+    margin-bottom: 2rem;
+    background-image: linear-gradient(144deg,rgb(23,191,173), rgb(8, 77, 166) 50%,rgb(23,191,173));
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    line-height: 1em;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button:active,
+  .button:hover {
+    outline: 0;
+  }
+  
+  .button a {
+      color: #FFFFFF;
+    }
+  
+  .button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button:hover span {
+    background: none;
+  }
+
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 90px;
+    background: whitesmoke;
+    border-top: 1px solid #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+#img_ieee{
+    padding-right: 2rem;
+}
+
+footer p {
+    font-family: lexend;
+    font-size: 1.2rem;
+    color:rgb(8, 77, 166);
+    padding-left: 2rem ;
+    padding-top: 2rem;
+}
